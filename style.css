@@ -11,7 +11,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 display:block;
 }
 
-html, body {background: #171717; font-family: 'Roboto', sans-serif; font-size: 16px; color: #222; cursor:default}
+html, body {background: #171717; font-family:'Segoe UI'; font-size: 16px; color: #222; cursor:default}
 
 .clear {clear: both;}
 
@@ -40,17 +40,16 @@ p {
 }
 
 #name h1 {
-	font-size: 2.5em;
+	font-size: 2.2em;
 	font-weight: 700;
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-family: 'Trebuchet MS';
 	margin-bottom: -6px;
 }
 
 #name h2 {
-	font-size: 2em;
+	font-size: 1.8em;
     color:#d52121;
-	margin-left: 2px;
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-family: 'Trebuchet MS';
 }
 
 #mainArea {
@@ -78,8 +77,7 @@ p {
 
 #contactDetails {
     float: right;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 8px;
+    font-family: 'Segoe UI';
 }
 
 #contactDetails td {
@@ -132,14 +130,14 @@ section:last-child {
 }
 
 .sectionTitle h1 {
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-family: 'Trebuchet MS';
 	font-style: italic;
 	font-size: 1.5em;
 	color: #d52121;
 }
 
 .sectionContent h2 {
-	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-family: 'Trebuchet MS';
 	font-size: 1.5em;
 	margin-bottom: -2px;
 }
