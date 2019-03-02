@@ -146,13 +146,13 @@ p {
 	padding-top: 150px
 }
 
-#headshot {
+#photo {
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
 }
 
-#headshot img {
+#photo img {
 	width: 100%;
 	height: auto;
 	-webkit-border-radius: 50px;
@@ -285,8 +285,23 @@ section:last-child {
 	margin-bottom: 3px;
 }
 
+@media all and (min-width: 602px) {
+	.mainDetails {
+		display: flex;
+	}
+
+	#name {
+		margin: auto 0;
+	}
+
+	#contactDetails {
+		margin: auto 0;
+		margin-left: auto;
+	}
+}
+
 @media all and (min-width: 602px) and (max-width: 800px) {
-	#headshot {
+	#photo {
 		display: none;
 	}
 
@@ -309,7 +324,7 @@ section:last-child {
 		padding: 0px 25px;
 	}
 
-	#headshot {
+	#photo {
 		display: none;
 	}
 
