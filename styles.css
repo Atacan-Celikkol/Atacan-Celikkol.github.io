@@ -39,8 +39,7 @@ p {
     padding: 25px;
     border-bottom: 2px solid #d52121;
     background: #f3f3f3;
-    position: fixed;
-    width: calc(90% - 50px);
+    position: sticky;
     max-width: 750px;
     top: 0;
 }
@@ -237,7 +236,6 @@ section:last-child {
     }
 
     .mainDetails {
-        width: calc(95% - 50px);
         padding: 0px 25px;
     }
 
