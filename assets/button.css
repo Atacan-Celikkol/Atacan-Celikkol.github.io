@@ -1,0 +1,81 @@
+.btn {
+  text-decoration: none;
+  position       : relative;
+  background     : none;
+  color          : aqua;
+  border         : 0.2em solid aqua;
+  font-variant   : petite-caps;
+  padding        : 0.5em 1em;
+  font-weight    : 500;
+}
+
+.btn::before {
+  content           : "";
+  display           : block;
+  position          : absolute;
+  width             : 10%;
+  background        : #222;
+  height            : 0.3em;
+  right             : 20%;
+  top               : -0.21em;
+  transform         : skewX(-45deg);
+  -webkit-transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+  transition        : all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.btn::after {
+  content           : "";
+  display           : block;
+  position          : absolute;
+  width             : 10%;
+  background        : #222;
+  height            : 0.3em;
+  left              : 20%;
+  bottom            : -0.25em;
+  transform         : skewX(45deg);
+  -webkit-transition: all 0.45 cubic-bezier(0.86, 0, 0.07, 1);
+  transition        : all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.btn:hover {
+  transition : 0.45s;
+  text-shadow: 1px 2px 5px;
+}
+
+.btn:hover::before {
+  right: 80%;
+}
+
+.btn:hover::after {
+  left: 80%;
+}
+
+.btn.purple {
+  color       : #4E3686;
+  border-color: #4E3686;
+}
+
+.btn.blue {
+  color       : #5DA4D9;
+  border-color: #5DA4D9;
+}
+
+.btn.green {
+  color       : #80D87F;
+  border-color: #80D87F;
+}
+
+.btn.yellow {
+  color       : #FBE960;
+  border-color: #FBE960;
+}
+
+.btn.orange {
+  color       : #EE724C;
+  border-color: #EE724C;
+}
+
+.btn.red {
+  color       : #E23349;
+  border-color: #E23349;
+}
